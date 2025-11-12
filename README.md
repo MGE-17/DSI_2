@@ -1,18 +1,3 @@
-Requirements
-
-# Data Link : https://www.kaggle.com/datasets/datascientistanna/customers-dataset
-
-
-# Crafting a Comprehensive Main README File 
-
-• Purpose & Overview: Introduce the project with essential details, concise description and a project objective. 
-• Goals & Objectives: Articulate what the project aims to achieve. 
-• Techniques & Technologies: Highlight the tools and methods used. 
-• Key Findings & Instructions: Summarize outcomes and provide setup instructions. 
-• Visuals & Credits: Enhance with visuals; acknowledge contributors
-***
-
-
 # Project Overview
 
 1. This project aims to segment customers into distinct groups based on their demographic characteristics and spending behavior using clustering techniques. By analyzing features such as Age, Gender, Profession, and Spending Score, the study identifies meaningful customer segments that reveal shopping patterns and preferences. 
@@ -55,7 +40,7 @@ Targeted Marketing: The marketing team can tailor promotions that align with cus
 # Methodology
 To address our business question “Can we cluster customers into different segments based on their Spending Score and demographic features such as Age, Gender, and Profession?” we followed a structured data science workflow. This ensures that our analysis is transparent, reproducible, and delivers actionable business insights.
 
-##3.1) Data Collection
+## 3.1) Data Collection
 
 Dataset Description
 
@@ -76,7 +61,7 @@ The dataset used in this project is titled Shop Customer Data (Customers.csv). I
 
 ### Dataset Source
 This dataset originates from Kaggle’s Shop Customer Data repository, designed for learning and analysis in retail marketing and customer segmentation.
-It can be accessed here: [Shop Customer Data on Kaggle] (https://www.kaggle.com/datasets/datascientistanna/customers-dataset)
+It can be accessed here: [Shop Customer Data on Kaggle](https://www.kaggle.com/datasets/datascientistanna/customers-dataset)
 
 ### Relevance to the Business Problem
 This dataset contains both demographic (Age, Gender, Profession, Family Size) and behavioral (Spending Score, Income) variables, making it ideal for customer segmentation analysis.
@@ -86,28 +71,28 @@ By applying clustering algorithms, we can uncover groups of customers with simil
 - Create personalized offers based on customer profiles
 - Improve customer satisfaction and retention
 
-##3.2) Data Preprocessing - Emilia 
+## 3.2) Data Preprocessing - Emilia 
 
 Imported the dataset (Customers.csv) and reviewed column names, data types, and missing values.
 Handled missing or inconsistent entries through imputation or removal where necessary.
 Encoded categorical features such as Gender and Profession into numerical format for analysis.
 Standardized numerical features (Age, Annual Income ($), Spending Score (1-100), Work Experience, Family Size) to ensure equal weight in clustering.
 
-##3.3) Exploratory Data Analysis (EDA) - Emilia & Harris
+## 3.3) Exploratory Data Analysis (EDA) - Emilia & Harris
 
 Conducted descriptive statistics and visualized distributions for all numeric features (histograms, boxplots).
 Used pairplots and correlation heatmaps to identify relationships between variables.
 Examined potential patterns in spending behavior across demographic groups (e.g., income vs. spending score by gender or profession).
 Detected and addressed potential outliers that could distort clustering results.
 
-##3.4) Feature Selection - Preethi
+## 3.4) Feature Selection - Preethi
 
 Selected key features for clustering based on business relevance and statistical patterns:
 Demographic: Age, Gender, Profession, Family Size
 Behavioral: Annual Income ($), Spending Score (1-100), Work Experience
 Applied feature scaling (StandardScaler) to normalize feature ranges.
 
-##3.5) Clustering Analysis - Emilia, Miguel, Sanyam
+## 3.5) Clustering Analysis - Emilia, Miguel, Sanyam
 
 Applied K-Means clustering to group customers into distinct segments.
 Determine the optimal number of clusters (k) using the Elbow Method and Silhouette Score.
@@ -115,7 +100,7 @@ Compared cluster characteristics to interpret their business meaning (e.g., high
 Optionally tested Hierarchical Clustering to validate cluster stability and interpret similarity between groups.
 
 
-##3.6) Visualization - Olena 
+## 3.6) Visualization - Olena 
 
 Created 2D and 3D scatterplots to visualize clusters using combinations such as:
 Annual Income ($) vs. Spending Score (1-100)
