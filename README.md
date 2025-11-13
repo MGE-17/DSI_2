@@ -19,35 +19,35 @@ This project aims to apply data-driven segmentation techniques (Clustering) to g
 # Business Value:
 
 By identifying clear customer segments, this project provides several strategic benefits to the organization:
-    1. Targeted Marketing: The marketing team can tailor promotions that align with customer preferences and needs.
-    2. Improved Customer Retention: The company can improve customer retention by offering personalized experiences and offers can strengthen customer relationships and encourage long term loyalty.
-    3. Efficient Resource Allocation: Management can allocate marketing and operational resources more effectively by focusing on high-value customer segments and their behaviors.
+1. Targeted Marketing: The marketing team can tailor promotions that align with customer preferences and needs.
+2. Improved Customer Retention: The company can improve customer retention by offering personalized experiences and offers can strengthen customer relationships and encourage long term loyalty.
+3. Efficient Resource Allocation: Management can allocate marketing and operational resources more effectively by focusing on high-value customer segments and their behaviors.
 
 
 # Project Goals
 
 The main goal of this project is to segment customers into meaningful groups based on their demographic and behavioral attributes to enable data-driven marketing decisions
 
-    1. Identify distinct customer segments using clustering algorithms (e.g., K-Means).
+1. Identify distinct customer segments using clustering algorithms (e.g., K-Means).
 
-    2. Analyze the key characteristics of each segment, including factors like income level, spending behavior, age group, and profession.
+2. Analyze the key characteristics of each segment, including factors like income level, spending behavior, age group, and profession.
 
-    3. Generate actionable business insights that supports a retail company design targeted marketing campaigns and personalized engagement strategies.
+3. Generate actionable business insights that supports a retail company design targeted marketing campaigns and personalized engagement strategies.
 
-    4. Demonstrate the practical application of data science techniques, which includes data cleaning, exploratory analysis, feature engineering, and unsupervised learning, to solve a real-world business problem.
+4. Demonstrate the practical application of data science techniques, which includes data cleaning, exploratory analysis, feature engineering, and unsupervised learning, to solve a real-world business problem.
 
 # Technical Stack:
 Programming Language: Python
 Prerequisites
-    1. Python 3.9+
-    2. Jupyter Notebook
+1. Python 3.9+
+2. Jupyter Notebook
 
 Libraries Used:
-    1. Numpy: matrix operations
-    2. Pandas: data analysis
-    3. Matplotlib: creating graphs and plots
-    4. Seaborn: enhancing matplotlib plots
-    5. SKLearn: regression analysis
+1. Numpy: matrix operations
+2. Pandas: data analysis
+3. Matplotlib: creating graphs and plots
+4. Seaborn: enhancing matplotlib plots
+5. SKLearn: regression analysis
 
 # Methodology
 To address our business question “Can we cluster customers into different segments based on their Spending Score and demographic features such as Age, Gender, and Profession?” we followed a structured data science workflow. This ensures that our analysis is transparent, reproducible, and delivers actionable business insights.
@@ -139,9 +139,9 @@ jupyter notebook
 
 Based on the clustering results, several insights were derived, such as:
 
-    1. Identification of high-value customer segments that contribute significantly to revenue based on demographic and behavioral characteristics (e.g., income, spending habits, age groups).
-    2. Recognition of potential customer segments for targeted marketing campaigns.
-    3. Understanding of customer preferences and behaviors to improve product offerings, thereby  improving customer engagement.
+1. Identification of high-value customer segments that contribute significantly to revenue based on demographic and behavioral characteristics (e.g., income, spending habits, age groups).
+2. Recognition of potential customer segments for targeted marketing campaigns.
+3. Understanding of customer preferences and behaviors to improve product offerings, thereby  improving customer engagement.
 
 
 # Conclusion - Team
