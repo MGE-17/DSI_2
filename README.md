@@ -203,7 +203,10 @@ jupyter notebook
 
 # Conclusion - Team
 
-The Customer Segmentation Analysis project provides a comprehensive approach to understand and categorize customers. By leveraging clustering techniques and visualizations, businesses can gain valuable insights into their customer base and make informed decisions to enhance their marketing strategies and overall performance.
+In this project, customer data was analysed using K-Means clustering to group customers based
+on Age, Annual Income and Spending Score. After comparing the overall averages with each cluster's averages, CLUSTER 0 emerged as the most valuable segment because it showed the highest spending score, making it the ideal target for marketing efforts.
+Targeting this high-spending cluster enables the business to allocate resources more efficiently and design personalized offers that match customer behaviour. This data-driven approach helps increase customer engagement, improve conversion rates and ultimately boost overall profitability.
+
 
 
 # Video links
