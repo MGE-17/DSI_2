@@ -99,12 +99,17 @@ By applying clustering algorithms, we can uncover groups of customers with simil
     - Behavioral: Annual Income ($), Spending Score (1-100), Work Experience
 - Applied feature scaling (StandardScaler) to normalize feature ranges.
 
-## Clustering Analysis - Emilia, Miguel, Sanyam
+## Clustering Analysis - Sanyam, Miguel
 
 - Applied K-Means clustering to group customers into distinct segments.
 - Determine the optimal number of clusters (k) using the Elbow Method and Silhouette Score.
 - Compared cluster characteristics to interpret their business meaning (e.g., high-value vs. budget-conscious customers).
 - Optionally tested Hierarchical Clustering to validate cluster stability and interpret similarity between groups.
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
 
 ## Visualization - Olena 
 
