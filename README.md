@@ -145,19 +145,19 @@ By applying clustering algorithms, we can uncover groups of customers with simil
 | **Family Size** | Number of family members in the customer’s household | Numerical |
 
 
-## Insights and Recommendations — Team
+## Insights and Recommendations - Team
 
 Based on the clustering analysis, several meaningful insights emerged that reveal how different demographic and behavioral factors influence customer spending patterns. These insights can directly support marketing, sales, and customer engagement strategies.
 
 ### Key Insights
 
-- **Cluster 0 — Young, High-Income, High-Spending Customers**  
+- **Cluster 0 - Young, High-Income, High-Spending Customers**  
   These customers have strong purchasing power and high engagement, making them ideal targets for premium offers, loyalty programs, and early-access campaigns.
 
-- **Cluster 1 — Older, High-Income, Low-Spending Customers**  
+- **Cluster 1 - Older, High-Income, Low-Spending Customers**  
   Despite high income levels, this segment demonstrates conservative spending behavior. They are more likely to respond to trust-based communication, value-driven promotions, and senior-friendly benefits.
 
-- **Cluster 2 — Middle-Aged, Moderate-Income, Moderate-Spending Customers**  
+- **Cluster 2 - Middle-Aged, Moderate-Income, Moderate-Spending Customers**  
   This group represents a stable but price-sensitive customer base. Bundled offers, promotions, and personalized discounts can help increase spending and retention.
 
 ### Additional Observations
@@ -169,7 +169,7 @@ Based on the clustering analysis, several meaningful insights emerged that revea
 ### Recommendations
 
 1. **Develop targeted marketing campaigns** tailored to each cluster’s preferences and spending behaviors.  
-2. **Enhance customer retention** by offering personalized experiences—particularly for high-value customers in Cluster 0.  
+2. **Enhance customer retention** by offering personalized experiences, particularly for high-value customers in Cluster 0.  
 3. **Introduce value-focused offerings** for Cluster 1 to encourage engagement without aggressive promotion.  
 4. **Promote bundled and discount-based campaigns** for Cluster 2 to increase purchase frequency.  
 5. **Consider adding more behavioral features** (e.g., purchase frequency, recency, product categories) in future analyses to strengthen segmentation accuracy.
@@ -185,6 +185,17 @@ Based on the clustering analysis, several meaningful insights emerged that revea
 | **Average Metrics per Cluster** | Bar charts for mean Age, Income, and Spending. | Highlights differences among groups. |
 | **Customer Count per Cluster** | Cluster size distribution. | Cluster 1 largest; Cluster 0 smallest but most profitable. |
 
+![image](https://github.com/MGE-17/DSI_2/blob/main/reports/figures/clusters_pca.png)
+
+![image](https://github.com/MGE-17/DSI_2/blob/main/reports/figures/clusters_3D_age_income_spending.png)
+
+![image](https://github.com/MGE-17/DSI_2/blob/main/reports/figures/clusters_income_spending.png)
+
+![image](https://github.com/MGE-17/DSI_2/blob/main/reports/figures/clusters_age_spending.png)
+
+![image](https://github.com/MGE-17/DSI_2/blob/main/reports/figures/avg_Annual_Income_dollars.png)
+
+![image](https://github.com/MGE-17/DSI_2/blob/main/reports/figures/avg_Spending_Score_(1-100).png)
 
 ## Project Assumptions and Limitations
 - **Spending Score Assumption:**  
@@ -201,7 +212,7 @@ Based on the clustering analysis, several meaningful insights emerged that revea
 
 **Next Steps:**  
 - Validate the *Spending Score* definition with stakeholders.  
-- Test different cluster counts (`k=4`, `k=5`).  
+- Predict the Spending Score based on the customer's Age, Annual Income, and Work Experience. 
 - Compare results with **Hierarchical** or **DBSCAN** clustering.  
 - Incorporate new behavioral variables for richer segmentation.
 
@@ -221,17 +232,22 @@ jupyter notebook
 
 # Conclusion - Team
 
-In this project, customer data was analysed using K-Means clustering to group customers based
-on Age, Annual Income and Spending Score. After comparing the overall averages with each cluster's averages, CLUSTER 0 emerged as the most valuable segment because it showed the highest spending score, making it the ideal target for marketing efforts.
-Targeting this high-spending cluster enables the business to allocate resources more efficiently and design personalized offers that match customer behaviour. This data-driven approach helps increase customer engagement, improve conversion rates and ultimately boost overall profitability.
+In this project, customer data was analysed using K-Means clustering to group customers based on Age, Annual Income and Spending Score. 
+
+After comparing the overall averages with each cluster's averages, CLUSTER 0 emerged as the most valuable segment because it showed the highest spending score, making it the ideal target for marketing efforts.
+
+Targeting this high-spending cluster enables the business to allocate resources more efficiently and design personalized offers that match customer behaviour. 
+
+This data-driven approach helps increase customer engagement, improve conversion rates and ultimately boost overall profitability.
 
 
 
 # Video links
 | **Name** | **Link** |
+|----------|----------|
 | Chung Ho Lee | |
 | Emilia Lubanska Oledzka | |
 | Miguel Gomez Escobar | |
-| Olena Oliinyk | |
+| Olena Oliinyk | https://drive.google.com/file/d/1xxNFubjqZ8uO_lU2Z1dhHxHFDfrGY-96/view?usp=sharing |
 | Preethi Sivakumar | |
 | Sanyam Arora | |
