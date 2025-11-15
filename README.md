@@ -250,4 +250,4 @@ This data-driven approach helps increase customer engagement, improve conversion
 | Miguel Gomez Escobar | |
 | Olena Oliinyk | https://drive.google.com/file/d/1xxNFubjqZ8uO_lU2Z1dhHxHFDfrGY-96/view?usp=sharing |
 | Preethi Sivakumar | |
-| Sanyam Arora | |
+| Sanyam Arora | https://drive.google.com/file/d/1y_1xV3lau3Dwklp862osHzUEWRE3jAVM/view?usp=sharing
