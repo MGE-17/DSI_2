@@ -69,7 +69,7 @@ It can be accessed here: [Shop Customer Data on Kaggle](https://www.kaggle.com/d
 
 ### Dataset Overview in Visual Representation -Preethi
 
-![alt text](image-1.png)
+![alt text](https://github.com/MGE-17/DSI_2/blob/main/images/shop_customer_data_dashboard.png)
 
 Key Insights Visible in the Dashboard
 
@@ -99,7 +99,7 @@ By applying clustering algorithms, we can uncover groups of customers with simil
 - Examined potential patterns in spending behavior across demographic groups (e.g., income vs. spending score by gender or profession).
 - Detected and addressed potential outliers that could distort clustering results.
 
-![alt text](image.png)
+![alt text](https://github.com/MGE-17/DSI_2/blob/main/images/correlation_heatmap.png)
 
 ## Feature Selection - Preethi
 
@@ -117,9 +117,9 @@ By applying clustering algorithms, we can uncover groups of customers with simil
 - Visualized clusters using scatter plots and bar charts to clearly highlight differences between customer groups.
 - Exported cluster assignments and summary statistics for business reporting and further visualization.
 
-![alt text](image-2.png)
+![alt text](https://github.com/MGE-17/DSI_2/blob/main/images/elbow_method.png)
 
-![alt text](image-3.png)
+![alt text](https://github.com/MGE-17/DSI_2/blob/main/images/customer_clusters.png)
 
 
 ## Visualization - Olena 
