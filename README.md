@@ -101,10 +101,12 @@ By applying clustering algorithms, we can uncover groups of customers with simil
 
 ## Clustering Analysis - Sanyam, Miguel
 
-- Applied K-Means clustering to group customers into distinct segments.
-- Determine the optimal number of clusters (k) using the Elbow Method and Silhouette Score.
-- Compared cluster characteristics to interpret their business meaning (e.g., high-value vs. budget-conscious customers).
-- Optionally tested Hierarchical Clustering to validate cluster stability and interpret similarity between groups.
+- Applied K-Means clustering on standardized customer features (Age, Annual Income, Spending Score) to group customers into meaningful segments.
+- Identified the optimal number of clusters (k=3) using the Elbow Method by plotting WSSD and selecting the point where the curve “bends”.
+- Calculated cluster-wise averages (Age, Income, Spending Score) and compared them with the overall dataset to interpret each segment.
+- Identified the high-value segment by selecting the cluster with the highest spending score and sufficient income levels.
+- Visualized clusters using scatter plots and bar charts to clearly highlight differences between customer groups.
+- Exported cluster assignments and summary statistics for business reporting and further visualization.
 
 ![alt text](image-2.png)
 
