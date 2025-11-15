@@ -90,6 +90,8 @@ By applying clustering algorithms, we can uncover groups of customers with simil
 - Examined potential patterns in spending behavior across demographic groups (e.g., income vs. spending score by gender or profession).
 - Detected and addressed potential outliers that could distort clustering results.
 
+![alt text](image.png)
+
 ## Feature Selection - Preethi
 
 - Selected key features for clustering based on business relevance and statistical patterns:
