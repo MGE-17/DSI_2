@@ -63,10 +63,19 @@ To address our business question **“Can we cluster customers into different se
 
 The dataset used in this project is titled Shop Customer Data (Customers.csv). It contains information about customers’ demographic characteristics, professional background, and spending behavior. Each row represents a unique customer record, which includes details that can help identify different customer groups.
 
-
 ### Dataset Source
 This dataset originates from Kaggle’s Shop Customer Data repository, designed for learning and analysis in retail marketing and customer segmentation.
 It can be accessed here: [Shop Customer Data on Kaggle](https://www.kaggle.com/datasets/datascientistanna/customers-dataset)
+
+### Dataset Overview in Visual Representation
+
+![alt text](image-1.png)
+
+Key Insights Visible in the Dashboard
+
+Total Customers: 2000
+Average Annual Income: $110.73K
+Average Spending Score: 50.96
 
 ### Relevance to the Business Problem
 This dataset contains both demographic (Age, Gender, Profession, Family Size) and behavioral (Spending Score, Income) variables, making it ideal for customer segmentation analysis.
