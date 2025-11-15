@@ -67,7 +67,7 @@ The dataset used in this project is titled Shop Customer Data (Customers.csv). I
 This dataset originates from Kaggle’s Shop Customer Data repository, designed for learning and analysis in retail marketing and customer segmentation.
 It can be accessed here: [Shop Customer Data on Kaggle](https://www.kaggle.com/datasets/datascientistanna/customers-dataset)
 
-### Dataset Overview in Visual Representation
+### Dataset Overview in Visual Representation -Preethi
 
 ![alt text](image-1.png)
 
